@@ -1,0 +1,63 @@
+body {
+    font-family: helvetica;
+    background-image: url("Resources\images\pattern.webp");
+}
+h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color:khaki;
+    text-align: center;
+}
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color:white;
+    text-align: left;
+}
+.nav li {
+    display:inline-block;
+    text-decoration: none;
+    font-size:25px;
+    padding: 30px 20px;
+    font-weight: bolder;
+}
+.nav{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    bottom: 200px;
+}
+.nav li a{
+    text-decoration: none;
+    color:blanchedalmond;
+}
+.highlight {
+    font-weight: bold;
+    color:blue;
+}
+#brushes{
+    background-color: mediumspringgreen;
+}
+#frames {
+    background-color: lightcoral;
+}
+#paint {
+    background-color: skyblue;
+}
+h1 {
+    padding: 40px 0px 200px;   
+    box-sizing:border-box;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg");
+    background-size: 5000px;
+}
+footer{
+    text-align: center;
+    background-color: blueviolet;
+    display: inline-flex;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
